@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechPro Academy</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <marquee><h1> K-Lab TechPro Academy</h1></marquee>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+         
+         <!-- Filter Buttons -->
+    <section class="course-filters">
+        <h2>Filter by Category</h2>
+        <div class="filter-buttons">
+            <button onclick="filterCourses('all')">All</button>
+            <button onclick="filterCourses('programming')">Programming</button>
+            <button onclick="filterCourses('networking')">Networking</button>
+            <button onclick="filterCourses('data-science')">Data Science</button>
+            <button onclick="filterCourses('design')">Design</button>
+        </div>
+    </section>
+
+    <!-- All Courses Section -->
+    <section class="all-courses">
+        <div class="course-list">
+            <!-- Programming Courses -->
+            <div class="course-item" data-category="programming">
+                <h3>Web Development</h3>
+                <img src="Webdevelopment.jpg" alt="Web Development" class="course-img">
+                <p>Learn to build responsive and interactive websites using HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="course-item" data-category="programming">
+                <h3>Mobile App Development</h3>
+                <img src="mobile dev.png" alt="Mobile App Development" class="course-img">
+                <p>Learn to design and build mobile applications for Android and iOS.</p>
+            </div>
+
+            <div class="course-item" data-category="programming">
+                <h3>Cybersecurity</h3>
+                <img src="cyber2.jpg" alt="Cybersecurity.jpg" class="course-img">
+                <p>Protect systems and networks from cyber threats, and gain hands-on experience with penetration testing and risk management tools.</p>
+            </div>
+
+            <!-- Data Science Courses -->
+            <div class="course-item" data-category="data-science">
+                <h3>Data Science</h3>
+                <img src="Data-Science2.jpg" alt="Data Science" class="course-img">
+                <p>Master data analysis and machine learning with Python, SQL, and TensorFlow.</p>
+            </div>
+
+            <div class="course-item" data-category="data-science">
+                <h3>Artificial Intelligence</h3>
+                <img src="AI.jpg" alt="Artificial Intelligence" class="course-img">
+                <p>Explore AI, neural networks, and machine learning with hands-on projects.</p>
+            </div>
+
+            <!-- Networking Courses -->
+            <div class="course-item" data-category="networking">
+                <h3>Network Engineering</h3>
+                <img src="network engineer.jpg" alt="Network Engineering" class="course-img">
+                <p>Learn networking technologies, including Cisco, firewalls, and network security.</p>
+            </div>
+
+            <!-- Design Courses -->
+            <div class="course-item" data-category="design">
+                <h3>UX/UI Design</h3>
+                <img src="UXUI.png" alt="UX/UI Design" class="course-img">
+                <p>Understand UX principles and design intuitive web interfaces.</p>
+            </div>
+
+            <!-- More Courses -->
+            <div class="course-item" data-category="programming">
+                <h3>Blockchain Technology</h3>
+                <img src="blockchain.webp" alt="Blockchain Technology" class="course-img">
+                <p>Explore the fundamentals of blockchain and cryptocurrency development.</p>
+            </div>
+
+            <div class="course-item" data-category="networking">
+                <h3>Cloud Computing</h3>
+                <img src="cloudcomputing.jpeg" alt="Cloud Computing" class="course-img">
+                <p>Gain expertise in cloud platforms like AWS, Azure, and Google Cloud.</p>
+            </div>
+
+            <div class="course-item" data-category="programming">
+                <h3>DevOps</h3>
+                <img src="DevOps4.jpg" alt="DevOps" class="course-img">
+                <p>Learn DevOps tools like Docker, Kubernetes, and Ansible to automate infrastructure.</p>
+            </div>
+
+            <div class="course-item" data-category="networking">
+                <h3>IT Support</h3>
+                <img src="ITsupport.png" alt="IT Support" class="course-img">
+                <p>Develop troubleshooting skills to solve hardware and software issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechPro Academy | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>

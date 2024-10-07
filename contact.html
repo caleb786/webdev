@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechPro Academy</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <marquee><h1> K-Lab TechPro Academy</h1></marquee>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+         <!-- Contact Information Section -->
+    <section class="contact-info">
+        <h2>Our Contact Information</h2>
+        <div class="contact-details">
+            <p><strong>Address:</strong> 123 TechPro Lane, Silicon Valley, Santon, SA</p>
+            <p><strong>Phone:</strong> +27 762055041</p>
+            <p><strong>Email:</strong> <a href="mailto:info@techproacademy.com">info@techproacademy.com</a></p>
+            <p><strong>Working Hours:</strong> Monday - Friday: 9:00 AM - 6:00 PM</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm" action="submit-form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Type your message here"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechPro Academy | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>
